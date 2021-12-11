@@ -25,6 +25,8 @@ public interface UserMapper {
 
     public Set<String> getRoleByUserName(String username);
     public Set<String>getPermissionByUserName(String username);
-
+/*
+*
+* */
     List<User>list();
 }
